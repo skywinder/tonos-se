@@ -14,7 +14,7 @@ tokio = { version = "0.2.13", features = ["macros"] }
 ton_block = { git = "https://github.com/tonlabs/ton-labs-block.git" }
 ton_client = { git = 'https://github.com/tonlabs/TON-SDK.git', package = "ton_client" }
 ton_types = { git = "https://github.com/tonlabs/ton-labs-types.git" }
-ton_vm = { git = "https://github.com/tonlabs/ton-labs-vm.git" }
+ton_vm = { git = "git@github.com:NilFoundation/rust-tvm.git", branch = "1-vergrth16-tvm-instruction" }
 
 ton_node_old = { path = "../ton_node" }
 

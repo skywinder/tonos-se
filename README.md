@@ -92,7 +92,7 @@ To connect to local blockchain from your application [specify localhost in SDK C
 
 ## TON OS SE components
 
-* [TON Labs implementation of TON VM written in Rust](https://github.com/tonlabs/ton-labs-vm)
+* [TON Labs implementation of TON VM written in Rust](https://github.com/NilFoundation/rust-tvm/tree/1-vergrth16-tvm-instruction)
 * [ArangoDB database](https://www.arangodb.com/)
 * [GraphQL endpoint with web playground](https://docs.ton.dev/86757ecb2/p/793337-graphql-api)
 * [TON-live explorer](https://ton.live)

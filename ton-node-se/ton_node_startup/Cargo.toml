@@ -10,9 +10,9 @@ log4rs = "0.8.3"
 ton_node = { path = "../ton_node", features = ["startup_node"], package = "ton_node_old" }
 ton_block = { git = "https://github.com/tonlabs/ton-labs-block.git" }
 ton_block_json = { git = "https://github.com/tonlabs/ton-labs-block-json.git" }
-ton_executor = { git = "https://github.com/tonlabs/ton-labs-executor.git" }
+ton_executor = { git = "git@github.com:NilFoundation/ton-executor.git", branch = "1-vergrth16" }
 ton_types = { git = "https://github.com/tonlabs/ton-labs-types.git" }
-ton_vm = { git = "https://github.com/tonlabs/ton-labs-vm.git" }
+ton_vm = { git = "git@github.com:NilFoundation/rust-tvm.git", branch = "1-vergrth16-tvm-instruction" }
 ed25519-dalek = "1.0.0-pre.4"
 reqwest = "0.9.7"
 http = "0.1.17"
