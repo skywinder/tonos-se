@@ -12,7 +12,7 @@ serde_json = "1.0.62"
 tokio = { version = "0.2.13", features = ["macros"] }
 
 ton_block = { git = "https://github.com/tonlabs/ton-labs-block.git" }
-ton_client = { git = 'https://github.com/tonlabs/TON-SDK.git', package = "ton_client" }
+ton_client = { git = 'https://github.com/NilFoundation/ton-sdk.git', branch = "1-vergrth16", package = "ton_client" }
 ton_types = { git = "https://github.com/tonlabs/ton-labs-types.git" }
 ton_vm = { git = "https://github.com/NilFoundation/rust-tvm.git", branch = "1-vergrth16-tvm-instruction" }
 
