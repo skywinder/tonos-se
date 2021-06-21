@@ -32,8 +32,8 @@ rustc-hex = "1.0"
 unexpected = { path = "parity/util/unexpected" }
 
 # In-house
-#ton_vm = { git = "https://github.com/NilFoundation/rust-tvm.git", branch = "1-vergrth16-tvm-instruction", default-features = false, features = ["full"] }
-ton_vm = { git = "https://github.com/NilFoundation/rust-tvm.git", branch = "1-vergrth16-tvm-instruction", default-features = false }
+#ton_vm = { git = "https://github.com/NilFoundation/rust-tvm.git", default-features = false, features = ["full"] }
+ton_vm = { git = "https://github.com/NilFoundation/rust-tvm.git", default-features = false }
 ton_block = { git = "https://github.com/tonlabs/ton-labs-block.git" }
 ton_types = { git = "https://github.com/tonlabs/ton-labs-types.git" }
 
