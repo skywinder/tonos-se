@@ -30,7 +30,7 @@ tokio-io-timeout = "0.3.1"
 
 ton_block = { git = "https://github.com/tonlabs/ton-labs-block.git" }
 ton_types = { git = "https://github.com/tonlabs/ton-labs-types.git" }
-ton_vm = { git = "https://github.com/tonlabs/ton-labs-vm.git" }
+ton_vm = { git = "https://github.com/NilFoundation/rust-tvm.git", branch = "1-vergrth16-tvm-instruction" }
 ton_api = { git = "https://github.com/tonlabs/ton-labs-tl.git", package = "ton_api" }
 
 [features]

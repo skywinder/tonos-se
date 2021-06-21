@@ -36,10 +36,10 @@ adnl = { path = "../adnl", features = ["server"] }
 poa = { path = "../poa" }
 ton_api = { git = "https://github.com/tonlabs/ton-labs-tl.git", package = "ton_api" }
 ton_block = { git = "https://github.com/tonlabs/ton-labs-block.git" }
-ton_executor = { git = "https://github.com/tonlabs/ton-labs-executor.git" }
+ton_executor = { git = "https://github.com/NilFoundation/ton-executor.git", branch = "1-vergrth16" }
 ton_types = { git = "https://github.com/tonlabs/ton-labs-types.git" }
-ton_vm = { git = "https://github.com/tonlabs/ton-labs-vm.git" }
-ton_labs_assembler = { git = "https://github.com/tonlabs/ton-labs-assembler.git" }
+ton_vm = { git = "https://github.com/NilFoundation/rust-tvm.git", branch = "1-vergrth16-tvm-instruction" }
+ton_labs_assembler = { git = "https://github.com/NilFoundation/tvm-asm.git", branch = "1-vergrth16" }
 
 # TBD
 #ethcore-network = { git = "https://github.com/paritytech/parity-ethereum.git", package = "ethcore-network" } 
