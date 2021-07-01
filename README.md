@@ -24,7 +24,7 @@ Local blockchain for Free TON DApp development and testing.
 
 TON OS Startup Edition (SE) is a local blockchain that developer can run on their machine in one click.   
 
-At the moment we publish TON OS SE only as a [docker image](https://hub.docker.com/r/tonlabs/local-node). 
+At the moment we publish TON OS SE only as a [docker image](https://hub.docker.com/r/nilfoundation/local-node). 
 We plan to provide simple installers for MacOS, Win, Linux without docker by the end of Q1 2021.
 
 See the [TON Labs TON OS SE documentation](https://docs.ton.dev/86757ecb2/p/19d886-ton-os-se) for detailed information.
@@ -45,7 +45,7 @@ See the [TON Labs TON OS SE documentation](https://docs.ton.dev/86757ecb2/p/19d8
 If you have [TONDEV installed globally on your machine](https://github.com/tonlabs/tondev), run this command
 
 ```commandline
-$ tondev se start
+$ tondev se start nilfoundation/local-node
 ```
 [Checkout other TON OS SE commands accessible from TONDEV](https://docs.ton.dev/86757ecb2/p/54722f-tonos-se). 
 You can also access these commands from [TONDEV VS Code Extension](https://github.com/tonlabs/tondev-vscode).
@@ -55,7 +55,7 @@ You can also access these commands from [TONDEV VS Code Extension](https://githu
 Run this command 
 
 ```commandline
-$ docker run -d --name local-node -e USER_AGREEMENT=yes -p80:80 tonlabs/local-node
+$ docker run -d --name local-node -e USER_AGREEMENT=yes -p80:80 nilfoundation/local-node
 ```
 
 To check that SE has been installed successfully check its local playground at http://0.0.0.0/graphql. 
@@ -81,7 +81,7 @@ In order to change some of these params, do the following:
 ```commandline
 $ docker run -d --name local-node -e USER_AGREEMENT=yes -p80:80 \
      -v /home/user/blockchain.conf.json:/ton-node/blockchain.conf.json \
-     tonlabs/local-node
+     nilfoundation/local-node
 ```
 
 ## How to connect to TON OS SE Graphql API from SDK

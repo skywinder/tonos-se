@@ -1,7 +1,7 @@
 #!/bin/sh -e
 
 TON_NODE="tonlabs/ton-node"
-TONOS_SE="${TONOS_SE:-tonlabs/local-node}"
+TONOS_SE="${TONOS_SE:-nilfoundation/local-node}"
 
 BIN_TARGET="ton_node_startup"
 
